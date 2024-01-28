@@ -1,0 +1,70 @@
+/* Color Palette
+
+Misty Rose- #F9E0D9
+Rose Taupe- #7D6167
+Eggplant- #5D4954
+Dimgrey- #696969
+
+*/
+
+
+
+/* GLOBAL */
+
+body  {
+    background-color: #F9E0D9;
+    color: dimgrey;
+    text-align:left;
+    padding-left: 5px;
+    
+}
+
+h1  {
+    color: #5D4954;
+}
+
+h2  {
+    color: black;
+}
+
+/* HEADER */
+
+header  {
+    background-color:floralwhite;
+    
+
+}
+
+/* LINKS */
+
+a  {
+    color: floralwhite;
+    text-decoration: none;
+}
+
+a:hover  {
+    color:#F9E0D9 ;
+
+}
+
+
+/* PROJECTS */
+
+
+
+/* WORK EXPERIENCE */
+
+
+
+/* EDUCATION */
+
+
+
+/* FOOTER */
+
+footer  {
+    background-color: #5D4954;
+    color: floralwhite;
+    
+}
+
