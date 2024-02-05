@@ -1,0 +1,142 @@
+/* Color Palette
+
+Misty Rose- #F9E0D9
+Rose Taupe- #7D6167
+Eggplant- #5D4954
+Dimgrey- #696969
+
+*/
+
+
+
+/* GLOBAL */
+
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+body  {
+    background-color: #F9E0D9;
+    color: black;
+    text-align:center;
+    margin: 0;
+    max-width: 800 px;
+    display: flex;
+    flex-direction: column;
+    
+}
+html, body  {
+    height: 100%;
+}
+
+h1  {
+    color: #5D4954 ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-shadow: 2px 2px #696969;
+    
+}
+
+h2  {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+h3  {
+    font-size: 25px;
+}
+
+.content-wrapper  {
+    margin: 0 auto;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    max-width: 900px;
+    background-color: floralwhite;
+    
+}
+.resume-section  {
+    margin-bottom: 50px;
+    
+    
+}
+.resume-section h2  {
+    border-bottom: 2px dashed floralwhite;
+    
+    
+}
+
+/* HEADER */
+
+header  {
+    
+    text-align: center;
+    
+    
+}
+
+
+/* LINKS */
+
+a  {
+    color: floralwhite;
+    text-decoration: none;
+}
+
+a:hover  {
+    color:#F9E0D9 ;
+
+}
+
+
+/* PROJECTS */
+
+.project-item1  {
+    float: left;
+    padding-left: 500px;
+}
+.project-item2  {
+    float: right;
+    padding-right: 500px;
+}
+
+
+/* WORK EXPERIENCE */
+.skills li  {
+    list-style-type: none;
+}
+
+
+/* EDUCATION */
+
+
+
+/* FOOTER */
+
+footer  {
+    background-color: #5D4954;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    
+}
+.socials  {
+    list-style-type: none;
+    padding: 0;
+
+}
+.socials li  {
+    display: inline-block;
+}
+.socials img {
+    width: 32px;
+
+}
